@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - A program that print the size of data type
+ * main - A program that print the size of data type using function sizeof
  * Return: 0
  */
 int main(void)
