@@ -5,15 +5,18 @@
  */
 int main(void)
 {
-	for (int i = 48; i < 58; i++)
+	int i = 48;
+
+	while(i <= 57)
 	{
 		putchar(i);
-		if (i == 57)
+		if(i == 57)
 		{
-			continue;
+			break;
 		}
 		putchar(',');
 		putchar(' ');
+		i++;
 	}
 	putchar(10);
 	return (0);
