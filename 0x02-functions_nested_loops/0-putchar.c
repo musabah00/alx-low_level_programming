@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * main - print_putchar
+ * main - print _putchar
  * is written by mbah
- * Retuen: 0
+ * Return: 0
  */
 int main(void)
 {
